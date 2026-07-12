@@ -1,0 +1,13 @@
+{
+  "description": "On-chain anchor of the Agent Action Capsule content-address (capsule_id) produced in this repo.",
+  "provenance_disclaimer": "The anchored ref is the capsule_id of a self-constructed Agent Action Capsule conformant to the format of draft-mih-scitt-agent-action-capsule-02. NOT produced by Action State Group, Steven Mih, or SCITT tooling; not a WG document. No adoption or endorsement is implied.",
+  "anchor_ref_bytes32": "0x2c658c7f228a3ece9a7397e3f237af27325cc05ba1f11e9adba5fea39d578aa5",
+  "registry": "0x49fEcA52bC634a9Ab773226D16619deC547794aa",
+  "chain": "Base mainnet (chainId 8453)",
+  "function": "anchor(bytes32)",
+  "event": "Anchored(bytes32 indexed ref, address indexed anchoredBy, uint256 timestamp)",
+  "tx": "0x7c7bd6950b27601154f707050f1cb72cc46fc1a89543b3eab5cafbba523f8339",
+  "block": 48546373,
+  "anchored_by": "Rama operator wallet",
+  "anchored_at_utc": "2026-07-12T18:48:27Z"
+}

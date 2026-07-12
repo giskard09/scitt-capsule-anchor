@@ -1,0 +1,6 @@
+{
+  "constraint_id": "com.rama.spend_ceiling",
+  "currency": "USD",
+  "threshold": "1000.00",
+  "observed": "4200.00"
+}

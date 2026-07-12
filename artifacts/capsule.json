@@ -1,0 +1,27 @@
+{
+  "spec_version": "draft-mih-scitt-agent-action-capsule-02",
+  "format_version": "2",
+  "action_id": "act-2026-07-12-0007",
+  "action_type": "decide",
+  "operator": "tenant:acme-treasury",
+  "developer": "agent:rama-payments-bot@1.4.2",
+  "timestamp": "2026-07-12T18:30:00Z",
+  "disposition": {
+    "decision": "reject",
+    "approver": "policy",
+    "human_disposed": false,
+    "verdict_class": "denied",
+    "reason_digest": "c78d7bd419b2e90bced7802c5436862ac0ad5c3ac758d870f555c9147ccbd41c"
+  },
+  "effect": {
+    "status": "planned",
+    "type": "send_payment",
+    "irreversibility_class": "one_way_consequential"
+  },
+  "assurance": {
+    "attestation_mode": "self_attested",
+    "effect_mode": "not_applicable",
+    "ledger_mode": "standalone"
+  },
+  "capsule_id": "2c658c7f228a3ece9a7397e3f237af27325cc05ba1f11e9adba5fea39d578aa5"
+}

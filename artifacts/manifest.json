@@ -1,0 +1,11 @@
+{
+  "description": "Agent Action Capsule (verdict_class=denied) \u2014 worked example for permissionless anchoring of a capsule content-address.",
+  "provenance": "Self-constructed to conform to the format of the individual Internet-Draft draft-mih-scitt-agent-action-capsule-02. NOT produced by Action State Group, Steven Mih, or SCITT tooling. Not a WG document. Demonstrates permissionless anchoring of a capsule content-address, not adoption.",
+  "spec": "draft-mih-scitt-agent-action-capsule-02",
+  "capsule_id": "2c658c7f228a3ece9a7397e3f237af27325cc05ba1f11e9adba5fea39d578aa5",
+  "reason_digest": "c78d7bd419b2e90bced7802c5436862ac0ad5c3ac758d870f555c9147ccbd41c",
+  "anchor_ref_bytes32": "0x2c658c7f228a3ece9a7397e3f237af27325cc05ba1f11e9adba5fea39d578aa5",
+  "anchor_registry": "0x49fEcA52bC634a9Ab773226D16619deC547794aa",
+  "anchor_chain": "Base mainnet (chainId 8453)",
+  "digest_construction": "capsule_id = HEX(SHA-256(JCS(normalize(envelope minus capsule_id and chain)))) per spec Section 5.1"
+}
